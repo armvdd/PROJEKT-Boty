@@ -4,8 +4,17 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 /*
  BARVY
  svetle sede pozadi      #f5f5f5
@@ -21,3 +30,112 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+
+.container{
+    background-color: #f5f5f5;
+    display: flex;
+    width: 670px;
+    height: 440px;
+    margin: 100px auto;
+    box-shadow: #b6b6b6 5px 10px 13px;
+    border-radius: 10px;
+}
+.leva{
+    background-image: linear-gradient(#06d7c1 , #50cc49);
+    width: 50%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border-radius: 10px 0 0 10px;
+    position: relative;
+}
+#logo{
+    margin: 30px 0 0 30px;
+}
+.leva p{
+    margin: 30px 0 0 30px;
+    color:#f5f5f5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.cena{
+    color:#f5f5f5;
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    margin-right: 30px;
+    left: 193px;
+    top: 360px;
+}
+.zaruka{
+    color:#f5f5f5;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    margin-right: 30px;
+    left: 156px;
+    top: 400px;
+}
+#bota{
+    position: absolute;
+    left: -75px;
+    top: 140px;
+}
+
+.prava{
+    background-color: #ffffff;
+    width: 50%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    border-radius: 0 10px 10px 0;
+}
+h1{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.prvni_odstavec{
+    font-size: 14px;
+    color: #959595;
+    padding: 10px 0 0 30px;
+}
+.druhy_odstavec{
+    margin: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #06d7c1;
+}
+h2{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+ul{
+    padding: 0 30px 0 30px;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+li:hover{
+    color: #f15f42;
+    border: 1px solid #f15f42;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.prava a{
+    display: block;
+    text-decoration: none;
+    background-color: #f15f42;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    width: 130px;
+    border-radius: 5px;
+    margin: 70px 30px 30px 30px;
+    box-shadow: #b6b6b6 5px 10px 13px;
+}
